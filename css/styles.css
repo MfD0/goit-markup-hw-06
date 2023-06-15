@@ -86,9 +86,8 @@ body{
   background-color: #2E2F42;
 }
 
-.hero-h1{
+.hero-title{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
