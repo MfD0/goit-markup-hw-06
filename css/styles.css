@@ -15,9 +15,11 @@ body{
 
 /*header*/
 
-.logo-link{
+.link{
   text-decoration: none;
-
+}
+.list{
+  list-style: none;
 }
 
 .logo{
@@ -35,11 +37,8 @@ body{
   color: var(--text-color);
 }
 
-.list{
-  list-style: none;
-}
-.link {
-  text-decoration: none;
+.list-link{
+  color:var(--logo-studio-color)
 }
 
 .header-list-li{
@@ -47,16 +46,10 @@ body{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
-  text-decoration: none;
 }
 
-.header-list-link{
-  text-decoration: none;
-}
-
-.header-list-link:hover,
-.header-list-link:focus{
+.link:hover,
+.link:focus{
   color: var(--text-hover-color);
 }
 
@@ -104,8 +97,6 @@ body{
 .hero-button{
   font-family: "Roboto", sans-seri;
   background: #4D5AE5;
-  border-radius: 4px;
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -115,19 +106,11 @@ body{
 }
 .hero-button:hover,
 .hero-button:focus{
-  color: var(--text-hover-color);
+  background-color: var(--text-hover-color);
 }
 
 
 /*section 1*/
-
-.section1-title{
-  display: none;
-}
-
-.section1-list{
-  list-style: none;
-}
 
 .section1-li-title{
   font-style: normal;
@@ -135,7 +118,7 @@ body{
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--logo-studio-color);
 }
 
 .section1-li-paragraph{
@@ -159,28 +142,17 @@ body{
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--text-color)
+  color: var(--logo-studio-color);
 }
-
-.list{
-  list-style-type: none;
-}
-
 
 /*section 3*/
 
 .section3{
-  color: #F4F4FD;
+  background-color: #F4F4FD;
 }
 
-.section1-OurTeam-names{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+.section3-list-li{
+  background-color: #FFFFFF;
 }
 
 .section1-OurTeam-info{
@@ -190,13 +162,12 @@ body{
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--logo-studio-color);
 }
-
 
 /*footer*/
 footer{
-  background: var(--text-color);
+  background: var(--logo-studio-color);
 }
 
 .Studio-footer{
