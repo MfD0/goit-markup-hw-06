@@ -114,7 +114,7 @@ body{
 
 /*section 1*/
 
-.section1-li-title{
+.first-section-li-title{
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -168,7 +168,16 @@ body{
   background-color: #FFFFFF;
 }
 
-.section1-OurTeam-info{
+.third-section-li-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo-studio-color);
+}
+
+
+.third-section-OurTeam-info{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
