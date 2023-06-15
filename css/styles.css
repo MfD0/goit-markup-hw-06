@@ -33,7 +33,7 @@ body{
   text-transform: uppercase
 }
 
-.logo-Studio{
+.logo-studio{
   color: var(--logo-studio-color);
 }
 
@@ -188,7 +188,7 @@ body{
 }
 
 /*footer*/
-footer{
+.footer{
   background: var(--logo-studio-color);
 }
 
