@@ -34,7 +34,7 @@ body{
 }
 
 .logo-Studio{
-  color: var(--text-color);
+  color: var(--logo-studio-color);
 }
 
 .list-link{
@@ -71,15 +71,15 @@ body{
   color:#434455;
 }
 
-.address-li-link:hover,
-.address-li-link:focus{
+.li-link:hover,
+.li-link:focus{
   color: var(--text-hover-color);
 }
 
 
 /*hero*/
 
-.hero{
+.section-hero{
   background-color: #2E2F42;
 }
 
@@ -95,7 +95,6 @@ body{
 }
 
 .hero-button{
-  font-family: "Roboto", sans-seri;
   background: #4D5AE5;
   font-weight: 500;
   font-size: 16px;
@@ -147,11 +146,11 @@ body{
 
 /*section 3*/
 
-.section3{
+.third-section{
   background-color: #F4F4FD;
 }
 
-.section3-list-li{
+.third-section-list-li{
   background-color: #FFFFFF;
 }
 
@@ -162,11 +161,11 @@ body{
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--logo-studio-color);
+  color: var(--text-color)
 }
 
 /*footer*/
-footer{
+.footer{
   background: var(--logo-studio-color);
 }
 
