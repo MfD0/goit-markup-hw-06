@@ -1,3 +1,10 @@
+
+body{
+  font-family: 'Roboto';
+}
+
+/*header*/
+
 .logo{
   text-decoration: none;
 }
@@ -23,7 +30,6 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
-
 
 .nav-navigations{
   list-style-type: none;
@@ -53,4 +59,74 @@
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+
+
+/*hero*/
+
+.hero{
+  background-color: #2E2F42;
+}
+
+.hero-h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero-button{
+  position: absolute;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+
+
+left: 636px;
+}
+
+.hero-button-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+/*section 1*/
+
+.section1-title{
+  display: none;
+}
+
+.section1-list{
+  list-style-type: none;
+}
+
+.section1-li-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.section1-li-paragraph{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
