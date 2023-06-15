@@ -5,6 +5,7 @@
   --text-hover-color: #404bbf;
   --text-color: #434455;
   --button-color: #F4F4FD;
+  --button_text: #FFFFFF;
 }
 
 body{
@@ -41,16 +42,14 @@ body{
   color:var(--logo-studio-color)
 }
 
-.li-link{
+.nav-link{
   color: var(--logo-studio-color);
-}
-
-.header-list-li{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 
 .link:hover,
 .link:focus{
@@ -61,17 +60,12 @@ body{
   font-style: normal;
 }
 
-.address-list-li{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
 
-.address-li-link{
+.address-link{
   color:#434455;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .address-li-link:hover,
@@ -87,7 +81,6 @@ body{
 }
 
 .hero-title{
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -98,12 +91,12 @@ body{
 
 .hero-button{
   font-family: "Roboto", sans-serif;
-  background: #4D5AE5;
+  background: var(--logo-web-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--button_text);
   cursor: pointer
 }
 .hero-button:hover,
@@ -115,22 +108,17 @@ body{
 /*section 1*/
 
 .first-section-li-title{
-  font-style: normal;
-  font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-studio-color);
 }
 
 .first-section-li-paragraph{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 
@@ -178,11 +166,8 @@ body{
 
 
 .third-section-ourteam-info{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color)
 }
@@ -198,13 +183,10 @@ body{
 
 
 .footer-text{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: var(--button-color);
 }
 
 
@@ -218,7 +200,6 @@ body{
 .portfolip-bottons{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
