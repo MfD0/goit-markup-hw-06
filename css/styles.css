@@ -144,6 +144,48 @@ left: 636px;
   text-transform: capitalize;
 }
 
-.section1-list{
+.section2-list{
   list-style-type: none;
 }
+
+
+/*section 3*/
+
+.section3-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+
+.section3-list{
+  list-style-type: none;
+}
+
+.section1-OurTeam-names{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.section1-OurTeam-info{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
+/*footer*/
