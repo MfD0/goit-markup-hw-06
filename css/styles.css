@@ -7,12 +7,12 @@ body{
 
 .logo{
   text-decoration: none;
-}
-
-.logo-Web{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
+}
+
+.logo-Web{
   font-size: 18px;
   line-height: 1.17px;
   letter-spacing: 0.03em;
@@ -21,9 +21,6 @@ body{
 }
 
 .logo-Studio{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.17px;
   letter-spacing: 0.03em;
@@ -189,3 +186,25 @@ left: 636px;
 
 
 /*footer*/
+footer{
+  background: #2E2F42;
+}
+
+.logo-Studio-footer{
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
+}
+
+.footer-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
