@@ -130,3 +130,20 @@ left: 636px;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+
+/*section 2*/
+
+.section2-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section1-list{
+  list-style-type: none;
+}
