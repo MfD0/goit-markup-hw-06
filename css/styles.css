@@ -177,7 +177,7 @@ body{
 }
 
 
-.third-section-OurTeam-info{
+.third-section-ourteam-info{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -188,11 +188,11 @@ body{
 }
 
 /*footer*/
-.footer{
+footer{
   background: var(--logo-studio-color);
 }
 
-.Studio-footer{
+.studio-footer{
   color: #F4F4FD;
 }
 
