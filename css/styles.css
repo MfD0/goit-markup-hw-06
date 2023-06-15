@@ -32,7 +32,7 @@ body{
   list-style-type: none;
 }
 
-.nav-navigations-element{
+.nav-navigations-element-link{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -204,4 +204,46 @@ footer{
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+}
+
+
+
+/*Portfolio buttons*/
+
+.buttons-list{
+  list-style-type: none;
+}
+
+.portfolip-bottons{
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+}
+
+.buttons-text{
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+}
+
+.Projects-carts-list{
+  list-style-type: none;
+}
+
+.Projects-carts-link{
+  text-decoration: none;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  
+    /* NAVY BLUE */
+  
+    color: #2E2F42;
 }
