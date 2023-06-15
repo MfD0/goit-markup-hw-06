@@ -41,6 +41,10 @@ body{
   color:var(--logo-studio-color)
 }
 
+.li-link{
+  color: var(--logo-studio-color);
+}
+
 .header-list-li{
   font-weight: 500;
   font-size: 16px;
@@ -67,12 +71,11 @@ body{
 }
 
 .address-li-link{
-  text-decoration: none;
   color:#434455;
 }
 
-.li-link:hover,
-.li-link:focus{
+.address-li-link:hover,
+.address-li-link:focus{
   color: var(--text-hover-color);
 }
 
@@ -95,6 +98,7 @@ body{
 }
 
 .hero-button{
+  font-family: "Roboto", sans-serif;
   background: #4D5AE5;
   font-weight: 500;
   font-size: 16px;
@@ -120,12 +124,12 @@ body{
   color: var(--logo-studio-color);
 }
 
-.section1-li-paragraph{
+.first-section-li-paragraph{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -133,7 +137,7 @@ body{
 
 /*section 2*/
 
-.section2-3-title{
+.second-section-title{
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -148,6 +152,17 @@ body{
 
 .third-section{
   background-color: #F4F4FD;
+}
+
+.third-section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-studio-color);
 }
 
 .third-section-list-li{
