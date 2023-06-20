@@ -6,6 +6,7 @@
   --text-color: #434455;
   --button-color: #F4F4FD;
   --button_text: #FFFFFF;
+  --button-hover-focus: #404BBF;
 }
 
 body{
@@ -51,8 +52,8 @@ body{
 }
 
 
-.link:hover,
-.link:focus{
+.nav-link:hover,
+.nav-link:focus{
   color: var(--text-hover-color);
 }
 
@@ -62,7 +63,7 @@ body{
 
 
 .address-li-link{
-  color:#434455;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -139,7 +140,7 @@ body{
 /*section 3*/
 
 .third-section{
-  background-color: #F4F4FD;
+  background-color: var(--button-color);
 }
 
 .third-section-title {
@@ -154,7 +155,7 @@ body{
 }
 
 .third-section-list-li{
-  background-color: #FFFFFF;
+  background-color: var(--button_text);
 }
 
 .third-section-li-title{
@@ -179,7 +180,7 @@ body{
 }
 
 .studio-footer{
-  color: #F4F4FD;
+  color: var(--button-color);
 }
 
 
@@ -211,8 +212,8 @@ body{
 
 .portfolip-bottons:hover,
 .portfolip-bottons:focus{
-  background-color: #404BBF;
-  color: #FFFFFF;
+  background-color: var(--button-hover-focus);
+  color: var(--button_text);
 }
 
 .project-title{
