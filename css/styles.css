@@ -15,10 +15,23 @@ body{
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: #FFFFFF;
+  margin: 0;
 }
 
 img{
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul{
+  margin: 0;
 }
 
 ul{
@@ -102,6 +115,7 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 
@@ -112,6 +126,7 @@ ul{
 
 .address{
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list{
@@ -125,7 +140,8 @@ ul{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+  display: block;
+  padding: 24px 0;}
 
 .address-li-link:hover,
 .address-li-link:focus{
@@ -140,11 +156,9 @@ ul{
   padding: 188px 0;
 }
 
-.hero-content{
-  max-width: 496px;
-}
 
 .hero-title{
+  display: block;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -152,6 +166,8 @@ ul{
   letter-spacing: 0.02em;
   color: #FFFFFF;
   max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button{
