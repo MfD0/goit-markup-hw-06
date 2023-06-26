@@ -21,6 +21,18 @@ img{
   display: block;
 }
 
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
 /*header*/
 
 .header{
@@ -166,9 +178,7 @@ img{
   padding: 120px 0;
 }
 
-.first-section-title{
- visibility: hidden;
-}
+
 
 .first-section-li-title{
   font-weight: 500;
@@ -313,9 +323,7 @@ img{
   padding-bottom: 120px;
 }
 
-.main-title{
-  visibility: hidden;
-}
+
 
 .buttons-list{
   list-style-type: none;
