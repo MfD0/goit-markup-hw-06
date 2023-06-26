@@ -15,121 +15,140 @@
 
 <body>
 
-  <header>
-  
-    <nav>
-      <a href="./index.html" class="link logo">Web<span class="logo-studio">Studio</span></a>
-      <ul class="list">
-        <li><a href="./index.html" class="link nav-link">Studio</a></li>
-        <li><a href="./portfolio.html" class="link nav-link">Portfolio</a></li>
-        <li><a href="" class="link nav-link">Contacts</a></li>
-      </ul>
-    </nav>
-    <address class="address">
-      <ul class="list">
-        <li><a href="mailto:info@devstudio.com" class="address-li-link link">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+110001111111" class="address-li-link link">+11 (000) 111-11-11</a></li>
-      </ul>
-    </address>
-  
+  <header class="header">
+    <div class="header-div container">
+      <nav class="nav">
+        <a href="./index.html" class="link logo logo-flex">Web<span class="logo-studio logo-flex">Studio</span></a>
+        <ul class="list nav-list">
+          <li><a href="./index.html" class="link nav-link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link nav-link">Portfolio</a></li>
+          <li><a href="" class="link nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="address">
+        <ul class="list address-list">
+          <li><a href="mailto:info@devstudio.com" class="address-li-link link">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+110001111111" class="address-li-link link">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
   </header>
 
   <main>
 
-    <section>
+    <section class="main-content">
+      <div class="container">
 
-      <h1>Our portfolio</h1>
+        <h1 class="main-title">Our portfolio</h1>
 
-      <ul class="list">
-        <li><button type="button" class="portfolip-bottons"> All</button></li>
-        <li><button type="button" class="portfolip-bottons"> Web Site</button></li>
-        <li><button type="button" class="portfolip-bottons"> App</button></li>
-        <li><button type="button" class="portfolip-bottons"> Design</button></li>
-        <li><button type="button" class="portfolip-bottons"> Marketing</button></li>
-      </ul>
-
-
-      <ul class="list">
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart1.jpg" alt="Project №1" width="360" height="300">
-            <h2 class="project-title">Banking App Interface Concept</h2>
-            <p class="project-paragraph">App</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart2.jpg" alt="Project №2" width="360" height="300">
-            <h2 class="project-title">Cashless Payment</h2>
-            <p class="project-paragraph">Marketing</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart3.jpg" alt="Project №3" width="360" height="300">
-            <h2 class="project-title">Meditation App</h2>
-            <p class="project-paragraph">App</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart4.jpg" alt="Project №4" width="360" height="300">
-            <h2 class="project-title">Taxi Service</h2>
-            <p class="project-paragraph">Marketing</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart5.jpg" alt="Project №5" width="360" height="300">
-            <h2 class="project-title">Screen Illustrations</h2>
-            <p class="project-paragraph">Design</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart6.jpg" alt="Project №6" width="360" height="300">
-            <h2 class="project-title">Online Courses</h2>
-            <p class="project-paragraph">Marketing</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart7.jpg" alt="Project №7" width="360" height="300">
-            <h2 class="project-title">Instagram Stories Concept</h2>
-            <p class="project-paragraph">Design</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart8.jpg" alt="Project №8" width="360" height="300">
-            <h2 class="project-title">Organic Food</h2>
-            <p class="project-paragraph">Web Site</p>
-          </a>
-        </li>
-        <li>
-          <a href="" class="link">
-            <img src="./images/project_cart9.jpg" alt="Project №9" width="360" height="300">
-            <h2 class="project-title">Fresh Coffee</h2>
-            <p class="project-paragraph">Web Site</p>
-          </a>
-        </li>
-      </ul>
+        <ul class="list buttons-list">
+          <li><button type="button" class="portfolip-bottons"> All</button></li>
+          <li><button type="button" class="portfolip-bottons"> Web Site</button></li>
+          <li><button type="button" class="portfolip-bottons"> App</button></li>
+          <li><button type="button" class="portfolip-bottons"> Design</button></li>
+          <li><button type="button" class="portfolip-bottons"> Marketing</button></li>
+        </ul>
 
 
+        <ul class="list cart-list">
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart1.jpg" alt="Project №1" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Banking App Interface Concept</h2>
+                <p class="project-paragraph">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart2.jpg" alt="Project №2" width="360" height="300">
+              <div class="cart-content">
+                <h2 class=" project-title">Cashless Payment</h2>
+                <p class="project-paragraph">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart3.jpg" alt="Project №3" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Meditation App</h2>
+                <p class="project-paragraph">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart4.jpg" alt="Project №4" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Taxi Service</h2>
+                <p class="project-paragraph">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart5.jpg" alt="Project №5" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Screen Illustrations</h2>
+                <p class="project-paragraph">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart6.jpg" alt="Project №6" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Online Courses</h2>
+                <p class="project-paragraph">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart7.jpg" alt="Project №7" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Instagram Stories Concept</h2>
+                <p class="project-paragraph">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart8.jpg" alt="Project №8" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Organic Food</h2>
+                <p class="project-paragraph">Web Site</p>
+              </div>
+            </a>
+          </li>
+          <li class="cart-list-li">
+            <a href="" class="link">
+              <img src="./images/project_cart9.jpg" alt="Project №9" width="360" height="300">
+              <div class="cart-content">
+                <h2 class="project-title">Fresh Coffee</h2>
+                <p class="project-paragraph">Web Site</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+      </div>
     </section>
 
 
   </main>
-  
+
   <footer class="footer">
-  
-    <a href="./index.html" class="link logo">Web
-      <span class="logo studio-footer">Studio</span></a>
-    <p class="footer-text">
-      Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-    </p>
-  
+    <div class="container">
+      <a href="./index.html" class="link logo footer-logo">Web
+        <span class="logo studio-footer">Studio</span></a>
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+      </p>
+    </div>
   </footer>
 
 
