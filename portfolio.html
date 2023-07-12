@@ -2,60 +2,79 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css" />
   <title>Portfolio</title>
 </head>
 
 <body>
-
   <header class="header">
     <div class="header-div container">
       <nav class="nav">
         <a href="./index.html" class="link logo logo-flex">Web<span class="logo-studio">Studio</span></a>
         <ul class="list nav-list">
           <li><a href="./index.html" class="link nav-link">Studio</a></li>
-          <li><a href="./portfolio.html" class="link nav-link">Portfolio</a></li>
+          <li>
+            <a href="./portfolio.html" class="link nav-link active">Portfolio</a>
+          </li>
           <li><a href="" class="link nav-link">Contacts</a></li>
         </ul>
       </nav>
       <address class="address">
         <ul class="list address-list">
-          <li><a href="mailto:info@devstudio.com" class="address-li-link link">info@devstudio.com</a>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-li-link link">info@devstudio.com</a>
           </li>
-          <li><a href="tel:+110001111111" class="address-li-link link">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="tel:+110001111111" class="address-li-link link">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </div>
   </header>
 
   <main>
-
     <section class="main-content">
       <div class="container">
-
         <h1 class="visually-hidden">Our portfolio</h1>
 
         <ul class="list buttons-list">
-          <li><button type="button" class="portfolip-bottons"> All</button></li>
-          <li><button type="button" class="portfolip-bottons"> Web Site</button></li>
-          <li><button type="button" class="portfolip-bottons"> App</button></li>
-          <li><button type="button" class="portfolip-bottons"> Design</button></li>
-          <li><button type="button" class="portfolip-bottons"> Marketing</button></li>
+          <li class="button-list-item">
+            <button type="button" class="portfolip-bottons">All</button>
+          </li>
+          <li class="button-list-item">
+            <button type="button" class="portfolip-bottons">Web Site</button>
+          </li>
+          <li class="button-list-item">
+            <button type="button" class="portfolip-bottons">App</button>
+          </li>
+          <li class="button-list-item">
+            <button type="button" class="portfolip-bottons">Design</button>
+          </li>
+          <li class="button-list-item">
+            <button type="button" class="portfolip-bottons">Marketing</button>
+          </li>
         </ul>
-
 
         <ul class="list cart-list">
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart1.jpg" alt="Project №1" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart1.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
+
               <div class="cart-content">
                 <h2 class="project-title">Banking App Interface Concept</h2>
                 <p class="project-paragraph">App</p>
@@ -63,17 +82,31 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart2.jpg" alt="Project №2" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart2.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
-                <h2 class=" project-title">Cashless Payment</h2>
+                <h2 class="project-title">Cashless Payment</h2>
                 <p class="project-paragraph">Marketing</p>
               </div>
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart3.jpg" alt="Project №3" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart3.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Meditation App</h2>
                 <p class="project-paragraph">App</p>
@@ -81,8 +114,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart4.jpg" alt="Project №4" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart4.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Taxi Service</h2>
                 <p class="project-paragraph">Marketing</p>
@@ -90,8 +130,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart5.jpg" alt="Project №5" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart5.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Screen Illustrations</h2>
                 <p class="project-paragraph">Design</p>
@@ -99,8 +146,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart6.jpg" alt="Project №6" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart6.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Online Courses</h2>
                 <p class="project-paragraph">Marketing</p>
@@ -108,8 +162,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart7.jpg" alt="Project №7" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart7.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Instagram Stories Concept</h2>
                 <p class="project-paragraph">Design</p>
@@ -117,8 +178,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart8.jpg" alt="Project №8" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart8.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Organic Food</h2>
                 <p class="project-paragraph">Web Site</p>
@@ -126,8 +194,15 @@
             </a>
           </li>
           <li class="cart-list-li">
-            <a href="" class="link">
-              <img src="./images/project_cart9.jpg" alt="Project №9" width="360" height="300">
+            <a href="" class="link portfolio-link">
+              <div class="overlay-div">
+                <img src="./images/project_cart9.jpg" alt="Project №1" width="360" height="300" />
+                <p class="overlay-paragraph">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                  App · Cloud Storage App
+                </p>
+              </div>
               <div class="cart-content">
                 <h2 class="project-title">Fresh Coffee</h2>
                 <p class="project-paragraph">Web Site</p>
@@ -135,23 +210,55 @@
             </a>
           </li>
         </ul>
-
       </div>
     </section>
-
-
   </main>
 
   <footer class="footer">
     <div class="container">
-      <a href="./index.html" class="link logo footer-logo">Web<span class="logo studio-footer">Studio</span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-      </p>
+      <div class="footer-left">
+        <a href="./index.html" class="link logo footer-logo">Web<span class="logo studio-footer">Studio</span></a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-social">Social Media</p>
+        <ul class="list footer-social-list">
+          <li class="footer-social-item">
+            <a href="#" class="footer-social-link">
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-social-link">
+              <svg class="footer-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
-
-
 </body>
 
 </html>
