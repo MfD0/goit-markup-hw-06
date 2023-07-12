@@ -420,12 +420,13 @@ ul {
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color: var(--color-active);
+  border-color: var(--button-hover-focus);
+  color: var(--button-hover-focus);
 }
 
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
-  fill: var(--color-active);
+  color: var(--button-hover-focus);
 }
 
 .customer-icon {
