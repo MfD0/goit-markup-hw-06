@@ -365,17 +365,86 @@
         </ul>
       </div>
 
+      <div class="footer-subscribe">
+        <p class="footer-social">Subscribe</p>
+        <form class="subscribe-form">
+          <input type="email" class="subscribe-input-email" name="subscribe-input-email" placeholder="Email" required minlength="5">
+          <button type="submit" class="subscribe-button">Subscribe
+            <svg class="subscribe-icon" width="24" height="20">
+              <use href="./images/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
+
+      </div>
+
     </div>
 
   </footer>
 
+
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
+      
       <button type="button" class="modal-exit-button" data-modal-close>
         <svg class="modal-exit-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+
+      <div class="modal-form">
+
+        <div class="modal-field">
+          <label for="input-name" class="modal-input-label">
+            <span class="modal-input-text">Name</span>
+          </label>
+          <div class="modal-input-line">
+            <input class="modal-input" type="text" id="input-name" name="input-name" placeholder="Enter your full name" required minlength="2">
+            <svg class="modal-input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label for="input-phone" class="modal-input-label">
+            <span class="modal-input-text">Phone</span>
+          </label>
+          <div class="modal-input-line">
+            <input class="modal-input" type="tel" id="input-phone" name="input-phone" placeholder="Enter your phone number" required
+              minlength="9">
+            <svg class="modal-input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label for="input-email" class="modal-input-label">
+            <span class="modal-input-text">Email</span>
+          </label>
+          <div class="modal-input-line">
+            <input class="modal-input" type="email" id="input-email" name="input-email" placeholder="Enter your email"
+              required minlength="9">
+            <svg class="modal-input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-field textarea-field">
+          <label for="input-comment" class="modal-input-label">
+            <span class="modal-input-text">Comment</span>
+          </label>
+          <div class="modal-input-line">
+            <textarea class="modal-input modal-textarea" type="text" id="input-comment" name="input-comment" placeholder="Enter your comment">
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
   </div>
