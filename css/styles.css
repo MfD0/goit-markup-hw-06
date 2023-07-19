@@ -877,11 +877,14 @@ footer .container {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox[type="checkbox"]:checked+.custom-button{
+.modal-checkbox:checked + .terms-label .terms-checkbox {
   border: none;
+  fill: var(--button-color);
+  background-color: var(--color-active);
 }
 
 .terms-text {
+  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -892,12 +895,6 @@ footer .container {
   color: var(--logo-web-color);
 }
 
-.modal-checkbox:checked ~ .terms-label > .terms-checkbox {
-  background-color: var(--color-active);
-  border-color: #404bbf;
-  fill: var(--button-color);
-
-}
 
 .checkbox-field {
   margin-bottom: 24px;
