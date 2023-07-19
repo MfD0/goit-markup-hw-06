@@ -539,15 +539,17 @@ footer .container {
 }
 
 .subscribe-button {
-  font-family: "Roboto", sans-serif;
   background: var(--logo-web-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button_text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
   cursor: pointer;
-  display: block;
   border: none;
   width: 165px;
   height: 40px;
@@ -565,7 +567,7 @@ footer .container {
   width: 24px;
   height: 20px;
   fill: var(--button_text);
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 .subscribe-input-email {
@@ -574,8 +576,12 @@ footer .container {
   background-color: transparent;
   border: 1px solid var(--button_text);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--button_text);
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 
@@ -603,7 +609,6 @@ footer .container {
 }
 
 .portfolip-bottons {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -700,6 +705,7 @@ footer .container {
 /*modal*/
 
 .is-hidden {
+  padding: 72px 24px 24px 24px;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -766,6 +772,7 @@ footer .container {
 }
 
 .modal-title {
+  color: var(--logo-studio-color);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
