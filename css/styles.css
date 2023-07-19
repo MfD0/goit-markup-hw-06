@@ -545,7 +545,7 @@ footer .container {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button_text);
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   min-width: 165px;
@@ -863,12 +863,12 @@ footer .container {
 }
 
 .terms-checkbox {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
