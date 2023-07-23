@@ -517,14 +517,14 @@ footer .container {
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  width: inherit;
+  width: 398px;
   justify-content: center;
   gap: 16px;
   align-items: center;  
 }
 
 .footer-lable{
-
+  width: 100%;
 }
 
 .subscribe-button {
