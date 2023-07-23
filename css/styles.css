@@ -110,9 +110,7 @@ header .container {
   text-transform: uppercase;
 }
 
-.logo-flex {
-  margin-right: 76px;
-}
+
 
 .logo-studio {
   color: var(--logo-studio-color);
