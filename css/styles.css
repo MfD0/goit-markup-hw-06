@@ -81,7 +81,7 @@ ul {
   list-style: none;
 }
 
-/*HEADER*/
+/*HEADER ================*/
 
 header .container {
   display: flex;
@@ -110,8 +110,6 @@ header .container {
   text-transform: uppercase;
 }
 
-
-
 .logo-studio {
   color: var(--logo-studio-color);
 }
@@ -133,12 +131,24 @@ header .container {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/background/bg-mob.jpg);
   margin: 0 auto;
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-mob-x2.jpg);
+  }
 }
 
 /* @media (min-device-pixel-ratio: 2),
@@ -224,13 +234,20 @@ header .container {
   color: var(--text-color);
 }
 
-/*section 3 ======================*/
+/*section 3  Work examples ======================*/
 
-.second-section {
+.work-examples-section {
   padding-bottom: 120px;
 }
 
-.second-section-title {
+.work-examples .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-examples-section-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -242,12 +259,12 @@ header .container {
   margin-bottom: 72px;
 }
 
-.second-section-list {
+.work-examples-section-list {
   display: flex;
   gap: 24px;
 }
 
-.second-section-li {
+.work-examples-section-li {
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -311,6 +328,7 @@ header .container {
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-align: center;
+  font-weight: 400;
 }
 
 .team-social {
@@ -380,7 +398,6 @@ header .container {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  width: 168px;
   height: 88px;
   color: var(--subtle-text-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -435,7 +452,7 @@ footer .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--button-color);
-  max-width: 264px;
+  width: 264px;
 }
 
 .footer-social {
@@ -509,20 +526,16 @@ footer .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: inherit;
+  width: -webkit-fill-available;
 }
 
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  width: 398px;
+  width: inherit;
   justify-content: center;
   gap: 16px;
-  align-items: center;  
-}
-
-.footer-lable{
-  width: 100%;
+  align-items: center;
 }
 
 .subscribe-button {
@@ -712,8 +725,9 @@ footer .container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
+  width: 90vw;
+  max-width: 392px;
+  height: auto;
   background: var(--background-modal);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -930,9 +944,7 @@ footer .container {
   margin-bottom: 40px;
   letter-spacing: 0.02em;
   display: block;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-nav-link.active {
