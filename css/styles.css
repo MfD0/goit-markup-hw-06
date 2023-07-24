@@ -89,7 +89,7 @@ header .container {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding: 25.5px 0 23.5px 16px;
+  padding: 25.5px 0 23.5px 0;
 }
 
 .header-div {
@@ -1028,13 +1028,13 @@ footer .container {
   display: inline-block;
   font-weight: 700;
   color: var(--logo-web-color);
-  font-size: 27px;
+  font-size: 25px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width: 420px) {
   .mob-phone-number{
     font-size: 36px;
   }
@@ -1051,7 +1051,7 @@ footer .container {
   gap: 35px;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 420px) {
   .menu-social {
       gap: 56px;
     }
