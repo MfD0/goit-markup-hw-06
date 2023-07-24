@@ -1,7 +1,7 @@
 /* Tablet screen */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 582px;
   }
 
   .media-mob-hidden {
@@ -118,7 +118,7 @@
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    margin: 0 auto 36px auto;
+    margin: 0 auto 48px auto;
   }
 
   .features-section-list {
@@ -129,8 +129,7 @@
   }
 
   .features-section-item {
-    width: calc(50% - 12px);
-    align-items: start;
+    width: calc((100% - 24px)/2);
   }
 
   .cards {
@@ -158,11 +157,9 @@
   footer .container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
     column-gap: 24px;
     row-gap: 72px;
     align-items: baseline;
-    width: 552px;
   }
 
   .footer-left {
@@ -171,7 +168,6 @@
   }
 
   .footer-right {
-    width: calc(50% - 12px);
     align-items: start;
   }
 
@@ -199,6 +195,7 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    
   }
 
   /*HEADER ================*/
@@ -251,8 +248,7 @@
   }
 
   .media-mob-tab-hidden {
-    display: flex;
-    visibility: visible;
+    display: block;
   }
 
   .icone-form {
@@ -328,6 +324,10 @@
 
   .footer-left {
     margin-right: 120px;
+  }
+
+  .footer-right {
+    margin-right: 80px;
   }
 
   .modal {
