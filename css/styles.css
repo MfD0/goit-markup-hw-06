@@ -168,7 +168,7 @@ header .container {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto 72px auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .hero-button {
@@ -209,6 +209,10 @@ header .container {
 
 .features-section-item {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .features-item-title {
@@ -217,7 +221,7 @@ header .container {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .features-item-paragraph {
@@ -934,7 +938,7 @@ footer .container {
 
 /* gweg */
 
-.mob-nav-item{
+.mob-nav-item:not(:last-child){
   margin-bottom: 40px;
 }
 
@@ -976,7 +980,7 @@ footer .container {
   top: 0;
   z-index: 2;
   background-color: var(--button_text);
-  padding: 24px 24px 40px 40px;
+  padding: 70px 24px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1014,11 +1018,6 @@ footer .container {
   transition-property: fill;
 }
 
-.mob-menu-top{
-  margin-top: 56px;
-}
-
-
 .mob-address-list {
   margin-bottom: 48px;
 }
@@ -1043,12 +1042,29 @@ footer .container {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 40px;
+}
+
+@media screen and (min-width:480px) {
+  .mob-phone-number{
+    font-size: 36px;
+  }
+}
+
+
+.mob-menu-address:not(:last-child){
+  margin-bottom: 40px; 
 }
 
 .menu-social {
-  display: flex;
-  gap: 56px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+@media screen and (min-width: 380px) {
+  .menu-social {
+      gap: 56px;
+    }
 }
 
 .menu-social-link {

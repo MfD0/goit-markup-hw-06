@@ -22,7 +22,7 @@
 
   .header-div {
     display: flex;
-    max-width: 766px;
+    max-width: 768px;
     justify-content: space-between;
     align-items: center;
   }
@@ -118,8 +118,12 @@
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    margin: 0 auto 48px auto;
+    margin: 0 auto 36px auto;
   }
+
+  .features-section  .container {
+     max-width: 768px;
+   }
 
   .features-section-list {
     flex-direction: row;
@@ -130,6 +134,7 @@
 
   .features-section-item {
     width: calc((100% - 24px)/2);
+    align-items: start;
   }
 
   .cards {
@@ -242,6 +247,10 @@
     max-width: 1440px;
   }
 
+  .hero-title{
+    margin: 0 auto 48px auto;
+  }
+
   /*section 2  features  ==========================*/
   .features-section {
     padding: 120px 0 120px 0;
@@ -269,7 +278,6 @@
   }
 
   .features-section-item {
-    align-items: center;
   }
 
   .features-section-list {
